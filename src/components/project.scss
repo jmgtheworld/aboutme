@@ -1,0 +1,54 @@
+.bodyTitle {
+  font-size: 40px;
+  color: white;
+}
+
+  .project {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: black;
+    
+    &__box {
+      display: flex;
+      flex-direction: Column;
+      align-items: center;
+      width: 450px;
+      height: 560px;
+      margin: 20px;
+      background-color: rgb(40, 39, 39);
+
+      &--name {
+        font-size: 26px;
+        margin-bottom: 15px;
+        color: white;
+      }
+
+      &--context {
+        font-size: 17px;
+        font-weight: bold;
+        color: #a1a1a6;
+        line-height: 1.3;
+        width: 400px;
+        height: 70px;
+      }
+
+      &--link {
+        color: rgb(20, 139, 213);
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 35px;
+      }
+
+      &--link:hover {
+        color: rgb(20, 139, 213);
+        text-decoration: underline;
+      }
+    }
+
+    &__item {
+      width: 400px;
+      height: 255px;
+      margin: 20px;      
+    }
+  }
