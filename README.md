@@ -1,6 +1,6 @@
 # About Me App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+About me app is a react application that summarizes my skills and projects as a full stack developer.
 
 ## Available Scripts
 
