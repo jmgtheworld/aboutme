@@ -19,19 +19,19 @@ export default function Body() {
       <h4 className = "bodyTitle"> Skills </h4> 
       <div className = "body__language">
         <h5 className = "language"> CSS </h5> 
-          <img className = "body__language--item" src = "../css3.png" alt = "css3" />
-          <img className = "body__language--item" src = "../sass.png" alt = "sass" />
-          <img className = "body__language--item" src = "../bootstrap.png" alt = "bootstrap" />
+          <img className = "body__language--item" src = "../images/css3.png" alt = "css3" />
+          <img className = "body__language--item" src = "../images/sass.png" alt = "sass" />
+          <img className = "body__language--item" src = "../images/bootstrap.png" alt = "bootstrap" />
         <h5 className = "language"> Javascript </h5> 
-          <img className = "body__language--item" src = "../js.png" alt = "js"/>
-          <img className = "body__language--item" src = "../logo192.png" alt = "react"/>
-          <img className = "body__language--item" src = "../nodejs.png" alt = "nodejs" />
-          <img className = "body__language--item"  src="../jquery.jpg" alt = "jquery"/>
-          <img className = "body__language--item"  src="../maps.png" alt = "maps"/>
+          <img className = "body__language--item" src = "../images/js.png" alt = "js"/>
+          <img className = "body__language--item" src = "../images/logo192.png" alt = "react"/>
+          <img className = "body__language--item" src = "../images/nodejs.png" alt = "nodejs" />
+          <img className = "body__language--item"  src="../images/jquery.jpg" alt = "jquery"/>
+          <img className = "body__language--item"  src="../images/maps.png" alt = "maps"/>
         <h5 className = "language"> Backend </h5> 
-          <img className = "body__language--item"  src="../psql.png" alt = "psql"/>
-          <img className = "body__language--item"  src="../ruby.png" alt = "ruby"/>
-          <img className = "body__language--item"  src="../php.png" alt = "php"/>
+          <img className = "body__language--item"  src="../images/psql.png" alt = "psql"/>
+          <img className = "body__language--item"  src="../images/ruby.png" alt = "ruby"/>
+          <img className = "body__language--item"  src="../images/php.png" alt = "php"/>
       </div>
 
       {/* List of Projects */}
@@ -40,7 +40,7 @@ export default function Body() {
         <div className = "project" >
           <div className = "project__box"> 
             <h3 className = "project__box--name"> TinyApp </h3> 
-            <img className = "project__item" src = "tinyapp.png" alt = "tinyapp"/> 
+            <img className = "project__item" src = "images/tinyapp.png" alt = "tinyapp"/> 
             <p className = "project__box--context">
               TinyApp is a full stack web application built with Node and Express 
               that allows users to shorten long URLs (à la bit.ly).
@@ -52,7 +52,7 @@ export default function Body() {
 
           <div className = "project__box">  
             <h3 className = "project__box--name"> Scheduler </h3>
-            <img className = "project__item" src = "scheduler.png" alt = "scheduler"/> 
+            <img className = "project__item" src = "images/scheduler.png" alt = "scheduler"/> 
             <p className = "project__box--context">
               Scheduler is a react application that allows users to book and cancel interviews. 
               It combines a concise API with a WebSocket server to build a realtime experience.
@@ -64,7 +64,7 @@ export default function Body() {
 
           <div className = "project__box"> 
             <h3 className = "project__box--name"> Wiki-App </h3> 
-            <img className = "project__item" src = "wikiMap.png" alt = "wikiMap"/>
+            <img className = "project__item" src = "images/wikiMap.png" alt = "wikiMap"/>
             <p className = "project__box--context">
               A web app that allows users to collaboratively create maps which list multiple "points". 
             </p> 

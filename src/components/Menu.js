@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from 'react-scroll'
+
 import "../components/Menu.scss";
 
-
 export default function Menu() {
-
   return (
       <li className = "Menu"> 
       <Link to = "about" spy = {true} smooth = {true} > 
