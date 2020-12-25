@@ -74,18 +74,6 @@ export default function Body() {
           </div>
         </div>
       </div>
-
-      <div className = "contact" id = "contact">
-        <h4 className = "bodyTitle" id = "contactTitle"> Contact </h4> 
-        <form action = "mailto:avedj94@hotmail.com" method = "post" enctype = "text/plain" className = "contact__form">
-          <input id = "name" type = "text" placeholder = "Your Name" /> 
-          <input id = "email" type = "text" placeholder = "Your Email" /> 
-          <textarea id = "message" type = "text" placeholder = "Your Message" /> 
-          <button className = "submit" type = "submit"> Submit </button>
-        </form>
-      </div> 
-
-
     </div>
   )
       
