@@ -1,63 +1,35 @@
-import React, { useState } from 'react';
+import React from 'react';
+import emailjs from 'emailjs-com';
 
-import "../components/body.scss";
-
-const axios = require('axios');
+import "../components/contact.scss";
 
 export default function Contact() {
-  const [state, setState] = useState({
-    name: '',
-    email: '',
-    message: ''
-  })
 
-  const setName = name => {
-    setState({...state, name})
-  }
+  let message = "";
 
-  const setEmail = email => {
-    setState({...state, email})
-  }
-
-  const setMessage = message => {
-    setState({...state, message})
-  }
-
-  const resetForm = () => {
-    setState({
-      name: '',
-      email: '',
-      message: ''
-    })
-  }
-
-  const handleSubmit = e => {
+  function sendEmail(e) {
     e.preventDefault();
-    axios({
-      method: "POST", 
-      url:"http://localhost:3002/send", 
-      data: state
-    }).then((response)=>{
-      if (response.data.status === 'success') {
-        alert("Message Sent."); 
-        resetForm()
-      } else if (response.data.status === 'fail') {
-        alert("Message failed to send.")
-      }
-    })
+    console.log(e.target)
+    emailjs.sendForm('service_9zz0gmd', 'template_n7qip5f', e.target, 'user_NRT8Q5KwxxO1ERzvVHXFu')
+      .then((result) => {
+          console.log(result);
+      }, (error) => {
+          console.log(error);
+      });
+      e.target.reset();
+      message = "Message sent!";
   }
 
   return(
-    <form className = "contact" onSubmit={handleSubmit.bind(this)} method="POST">
-      <h3 id = "contact" > Contact </h3>
-      <input type="text" className="form-control" id="name" placeholder = "name" value={state.name} 
-        onChange= { event => setName(event.target.value)} />
-      <input type="email" className="form-control" id="email" placeholder = "email" value={state.email} 
-        onChange= { event => setEmail(event.target.value)}  />
-      <textarea className="form-control" id="message" placeholder = "message" value={state.message} 
-        onChange= { event => setMessage(event.target.value)}  />
-      <button type="submit" className="submit">Submit</button>
+    <div className = "contact" id = "contact">
+    <h4 className = "bodyTitle" id = "contactTitle"> Contact </h4> 
+    <form onSubmit = {sendEmail} className = "contact__form">
+      <input id = "name" name = "name" type = "text" placeholder = "Your Name" /> 
+      <input id = "email" name = "email" type = "text" placeholder = "Your Email" /> 
+      <textarea id = "message" name = "message" type = "text" placeholder = "Your Message" /> 
+      <button className = "submit" type = "submit"> Submit </button>
     </form>
+  </div> 
   );
 
 }
