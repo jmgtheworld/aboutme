@@ -3,7 +3,7 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  min-width: 845px; 
   align-items: center;
 
     &__profileImage {
