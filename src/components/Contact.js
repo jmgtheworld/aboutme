@@ -59,11 +59,11 @@ export default function Contact() {
     <div className = "contact" id = "contact">
       <h4 className = "bodyTitle" id = "contactTitle"> Contact </h4> 
       <form onSubmit = {sendEmail} className = "contact__form">
-        <input id = "name" name = "name" type = "text" placeholder = "Your Name" onBlur = {(e)=> validateName(e.target.value)} /> 
+        <input id = "name" name = "name" type = "text" placeholder = "Your Name" onSubmit = {(e)=> validateName(e.target.value)} /> 
         <div id = "errorMessage"> {errorMessageName} </div>
-        <input id = "email" name = "email" type = "text" placeholder = "Your Email" onBlur = {(e)=> validateEmail(e.target.value)}/> 
+        <input id = "email" name = "email" type = "text" placeholder = "Your Email" onSubmit = {(e)=> validateEmail(e.target.value)}/> 
         <div id = "errorMessage"> {errorMessageEmail} </div>
-        <textarea id = "message" name = "message" type = "text" placeholder = "Your Message" onBlur = {(e)=> validateMessage(e.target.value)}/> 
+        <textarea id = "message" name = "message" type = "text" placeholder = "Your Message" onSubmit = {(e)=> validateMessage(e.target.value)}/> 
         <div id = "errorMessage"> {errorMessageContent} </div>
         <div id = "stateMessage">
           <div id = "successMessage"> {successMessage} </div> 
