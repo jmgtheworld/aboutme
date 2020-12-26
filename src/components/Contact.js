@@ -12,7 +12,8 @@ export default function Contact() {
 
   function sendEmail(e) {
     e.preventDefault();
-    if (e.target.name.value && e.target.email.value && e.target.message.value) {
+    if (validateName(e.target.name.value) && validateEmail(e.target.email.value) 
+      && validateMessage(e.target.message.value)) {
       emailjs.sendForm('service_9zz0gmd', 'template_n7qip5f', e.target, 'user_NRT8Q5KwxxO1ERzvVHXFu')
         .then((result) => {
             console.log(result);
