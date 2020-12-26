@@ -11,10 +11,10 @@ export default function Footer() {
   return (
     <div className = "footer">
       <div className = "footer__social">
-        <a href = "https://www.linkedin.com/in/min-goo-jo-3a4aa763/" target="_blank"> 
+        <a href = "https://www.linkedin.com/in/min-goo-jo-3a4aa763/" target="_blank" rel="noreferrer"> 
           <img className = "footer__social--image" src = "images/linkedin.png" alt = "linkedIn" />
         </a> 
-        <a href = "https://github.com/jmgtheworld" target="_blank"> 
+        <a href = "https://github.com/jmgtheworld" target="_blank" rel="noreferrer"> 
           <img className = "footer__social--image" src = "images/github.png" alt = "github" /> 
         </a>
       </div>
