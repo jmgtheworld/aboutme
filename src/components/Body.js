@@ -7,7 +7,7 @@ export default function Body() {
     <div className = "body" >
       {/* Start of Body  */}
       <h3 className = "name" id = "about"> Min Goo Jo </h3> 
-      <h4 className = "title"> Junior Full Stack Developer </h4>
+      <h4 className = "title"> Full Stack Developer </h4>
       <h5 className = "aboutMe"> 
         I enjoy solving problems and learning new ways to approach challenging projects. 
         With serious passion for developing fast, intuitive, dynamic apps, I love utilizing
