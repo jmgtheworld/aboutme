@@ -23,7 +23,7 @@ export default function Body() {
           <img className = "body__language--item" src = "../images/sass.png" alt = "sass" />
           <img className = "body__language--item" src = "../images/bootstrap.png" alt = "bootstrap" />
         <h5 className = "language"> Javascript </h5> 
-          <img className = "body__language--item" src = "../images/js.png" alt = "js"/>
+          <img className = "body__language--item" src = "../images/ajax.jpg" alt = "ajax"/>
           <img className = "body__language--item" src = "../images/logo192.png" alt = "react"/>
           <img className = "body__language--item" src = "../images/nodejs.png" alt = "nodejs" />
           <img className = "body__language--item"  src="../images/jquery.jpg" alt = "jquery"/>
