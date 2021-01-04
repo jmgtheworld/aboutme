@@ -57,6 +57,18 @@ export default function Body() {
             </a> 
           </div>
 
+          <div className = "project__box"> 
+            <h3 className = "project__box--name"> Tweeter </h3> 
+            <img className = "project__item" src = "images/tweeter.png" alt = "tweeter"/> 
+            <p className = "project__box--context">
+              Tweeter is a simple, single-page Twitter clone built with HTML, CSS, JS, 
+              jQuery and AJAX on the client-side, and Node, Express and MongoDB on the server-side
+            </p> 
+            <a className = "project__box--link" href="https://github.com/jmgtheworld/tweeter" target = "_blank" rel="noreferrer"> 
+            Visit Github Repo {`>`} 
+            </a> 
+          </div>
+
           <div className = "project__box">  
             <h3 className = "project__box--name"> Scheduler </h3>
             <img className = "project__item" src = "images/scheduler.png" alt = "scheduler"/> 
