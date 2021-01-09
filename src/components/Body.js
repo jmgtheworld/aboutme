@@ -26,11 +26,11 @@ export default function Body() {
           <img className = "body__language--item" src = "../images/ajax.jpg" alt = "ajax"/>
           <img className = "body__language--item" src = "../images/logo192.png" alt = "react"/>
           <img className = "body__language--item" src = "../images/nodejs.png" alt = "nodejs" />
-          <img className = "body__language--item"  src="../images/jquery.jpg" alt = "jquery"/>
+          <img className = "body__language--item"  src="../images/jquery.png" alt = "jquery"/>
           <img className = "body__language--item"  src="../images/maps.png" alt = "maps"/>
         <h5 className = "language"> Backend </h5> 
           <img className = "body__language--item"  src="../images/psql.png" alt = "psql"/>
-          <img className = "body__language--item"  src="../images/ruby.png" alt = "ruby"/>
+          <img className = "body__language--item"  src="../images/rails.png" alt = "ruby"/>
           <img className = "body__language--item"  src="../images/php.png" alt = "php"/>
         <h5 className = "language"> Testing </h5> 
           <img className = "body__language--item"  src="../images/eslint.svg" alt = "eslint"/>
