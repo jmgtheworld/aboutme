@@ -82,6 +82,17 @@ export default function Body() {
           </div>
 
           <div className = "project__box"> 
+            <h3 className = "project__box--name"> Jungle </h3> 
+            <img className = "project__item" src = "images/list_of_products.png" alt = "wikiMap"/>
+            <p className = "project__box--context">
+            A mini e-commerce application built with Rails 4.2  
+            </p> 
+            <a className = "project__box--link" href="https://github.com/jmgtheworld/jungle" target = "_blank" rel="noreferrer"> 
+            Visit Github Repo {`>`}
+            </a> 
+          </div>
+
+          <div className = "project__box"> 
             <h3 className = "project__box--name"> Wiki-Map </h3> 
             <img className = "project__item" src = "images/wikiMap.png" alt = "wikiMap"/>
             <p className = "project__box--context">
