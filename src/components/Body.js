@@ -46,6 +46,17 @@ export default function Body() {
         <h4 className = "bodyTitle" > Projects </h4> 
         <div className = "project" >
           <div className = "project__box"> 
+              <h3 className = "project__box--name"> Rebu </h3> 
+              <img className = "project__item" src = "images/rebu.png" alt = "tinyapp"/> 
+              <p className = "project__box--context">
+                Designated Driving Service: Get others to drive your car after a night out.
+              </p> 
+              <a className = "project__box--link" href="https://github.com/jmgtheworld/Rebu" target = "_blank" rel="noreferrer"> 
+              Visit Github Repo {`>`} 
+              </a> 
+            </div>
+
+          <div className = "project__box"> 
             <h3 className = "project__box--name"> TinyApp </h3> 
             <img className = "project__item" src = "images/tinyapp.png" alt = "tinyapp"/> 
             <p className = "project__box--context">
