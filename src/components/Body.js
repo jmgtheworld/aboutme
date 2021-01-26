@@ -56,30 +56,6 @@ export default function Body() {
               </a> 
             </div>
 
-          <div className = "project__box"> 
-            <h3 className = "project__box--name"> TinyApp </h3> 
-            <img className = "project__item" src = "images/tinyapp.png" alt = "tinyapp"/> 
-            <p className = "project__box--context">
-              TinyApp is a full stack web application built with Node and Express 
-              that allows users to shorten long URLs (à la bit.ly).
-            </p> 
-            <a className = "project__box--link" href="https://github.com/jmgtheworld/tinyapp" target = "_blank" rel="noreferrer"> 
-            Visit Github Repo {`>`} 
-            </a> 
-          </div>
-
-          <div className = "project__box"> 
-            <h3 className = "project__box--name"> Tweeter </h3> 
-            <img className = "project__item" src = "images/tweeter.png" alt = "tweeter"/> 
-            <p className = "project__box--context">
-              Tweeter is a simple, single-page Twitter clone built with HTML, CSS, JS, 
-              jQuery and AJAX on the client-side, and Node, Express and MongoDB on the server-side
-            </p> 
-            <a className = "project__box--link" href="https://github.com/jmgtheworld/tweeter" target = "_blank" rel="noreferrer"> 
-            Visit Github Repo {`>`} 
-            </a> 
-          </div>
-
           <div className = "project__box">  
             <h3 className = "project__box--name"> Scheduler </h3>
             <img className = "project__item" src = "images/scheduler.png" alt = "scheduler"/> 
@@ -104,6 +80,17 @@ export default function Body() {
           </div>
 
           <div className = "project__box"> 
+            <h3 className = "project__box--name"> The Dundies </h3> 
+            <img className = "project__item" src = "images/dundies.png" alt = "tinyapp"/> 
+            <p className = "project__box--context">
+              Search and nominate your favourtie movies and share between friends.
+            </p> 
+            <a className = "project__box--link" href="https://github.com/jmgtheworld/omdb" target = "_blank" rel="noreferrer"> 
+            Visit Github Repo {`>`} 
+            </a> 
+          </div>
+
+          <div className = "project__box"> 
             <h3 className = "project__box--name"> Wiki-Map </h3> 
             <img className = "project__item" src = "images/wikiMap.png" alt = "wikiMap"/>
             <p className = "project__box--context">
@@ -113,6 +100,31 @@ export default function Body() {
             Visit Github Repo {`>`}
             </a> 
           </div>
+
+          {/* <div className = "project__box"> 
+            <h3 className = "project__box--name"> TinyApp </h3> 
+            <img className = "project__item" src = "images/tinyapp.png" alt = "tinyapp"/> 
+            <p className = "project__box--context">
+              TinyApp is a full stack web application built with Node and Express 
+              that allows users to shorten long URLs (à la bit.ly).
+            </p> 
+            <a className = "project__box--link" href="https://github.com/jmgtheworld/tinyapp" target = "_blank" rel="noreferrer"> 
+            Visit Github Repo {`>`} 
+            </a> 
+          </div> */}
+
+          <div className = "project__box"> 
+            <h3 className = "project__box--name"> Tweeter </h3> 
+            <img className = "project__item" src = "images/tweeter.png" alt = "tweeter"/> 
+            <p className = "project__box--context">
+              Tweeter is a simple, single-page Twitter clone built with HTML, CSS, JS, 
+              jQuery and AJAX on the client-side, and Node, Express and MongoDB on the server-side
+            </p> 
+            <a className = "project__box--link" href="https://github.com/jmgtheworld/tweeter" target = "_blank" rel="noreferrer"> 
+            Visit Github Repo {`>`} 
+            </a> 
+          </div>
+
 
         </div>
       </div>
