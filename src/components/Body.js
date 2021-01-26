@@ -51,8 +51,11 @@ export default function Body() {
               <p className = "project__box--context">
                 Designated Driving Service: Get others to drive your car after a night out.
               </p> 
-              <a className = "project__box--link" href="https://github.com/jmgtheworld/Rebu" target = "_blank" rel="noreferrer"> 
+              <a className = "project__box--link1" href="https://github.com/jmgtheworld/Rebu" target = "_blank" rel="noreferrer"> 
               Visit Github Repo {`>`} 
+              </a> 
+              <a className = "project__box--link2" href="https://www.youtube.com/watch?v=oiV-0-oXAhw&feature=youtu.be&ab_channel=JenniferJung" target = "_blank" rel="noreferrer"> 
+              Watch Live Demo {`>`} 
               </a> 
             </div>
 
