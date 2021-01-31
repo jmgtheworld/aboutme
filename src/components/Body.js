@@ -63,11 +63,13 @@ export default function Body() {
             <h3 className = "project__box--name"> Scheduler </h3>
             <img className = "project__item" src = "images/scheduler.png" alt = "scheduler"/> 
             <p className = "project__box--context">
-              Scheduler is a react application that allows users to book and cancel interviews. 
-              It combines a concise API with a WebSocket server to build a realtime experience.
+              React application that allows users to book and cancel interviews. 
             </p> 
-            <a className = "project__box--link" href="https://github.com/jmgtheworld/scheduler" target = "_blank" rel="noreferrer">  
+            <a className = "project__box--link1" href="https://github.com/jmgtheworld/scheduler" target = "_blank" rel="noreferrer">  
             Visit Github Repo {`>`}
+            </a> 
+            <a className = "project__box--link2" href="https://www.youtube.com/watch?v=HO4OvsK-MWQ&feature=youtu.be&ab_channel=MGJ" target = "_blank" rel="noreferrer"> 
+              Watch Live Demo {`>`} 
             </a> 
           </div>
 
@@ -99,8 +101,11 @@ export default function Body() {
             <p className = "project__box--context">
               A web app that allows users to collaboratively create maps which list multiple "points". 
             </p> 
-            <a className = "project__box--link" href="https://github.com/audrey-audrey/wiki-map" target = "_blank" rel="noreferrer"> 
+            <a className = "project__box--link1" href="https://github.com/audrey-audrey/wiki-map" target = "_blank" rel="noreferrer"> 
             Visit Github Repo {`>`}
+            </a> 
+            <a className = "project__box--link2" href="https://www.youtube.com/watch?v=pQOuR3MKOTs&feature=youtu.be&ab_channel=MGJ" target = "_blank" rel="noreferrer"> 
+              Watch Live Demo {`>`} 
             </a> 
           </div>
 
