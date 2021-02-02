@@ -30,6 +30,7 @@ export default function Body() {
           <img className = "body__language--item"  src="../images/maps.png" alt = "maps"/>
         <h5 className = "language"> Backend </h5> 
           <img className = "body__language--item"  src="../images/psql.png" alt = "psql"/>
+          <img className = "body__language--item"  src="../images/apollo.png" alt = "apollographql"/>
           <img className = "body__language--item"  src="../images/rails.png" alt = "ruby"/>
           <img className = "body__language--item"  src="../images/php.png" alt = "php"/>
         <h5 className = "language"> Testing </h5> 
@@ -49,7 +50,7 @@ export default function Body() {
               <h3 className = "project__box--name"> Rebu </h3> 
               <img className = "project__item" src = "images/rebu.png" alt = "tinyapp"/> 
               <p className = "project__box--context">
-                Designated Driving Service: Get others to drive your car after a night out.
+                Designated Driving Service: Get others to drive your car after a night out. 
               </p> 
               <a className = "project__box--link1" href="https://github.com/jmgtheworld/Rebu" target = "_blank" rel="noreferrer"> 
               Visit Github Repo {`>`} 
@@ -83,6 +84,21 @@ export default function Body() {
             Visit Github Repo {`>`}
             </a> 
           </div>
+
+          <div className = "project__box"> 
+              <h3 className = "project__box--name"> SpaceX Stats </h3> 
+              <img className = "project__item" src = "images/spacex.png" alt = "tinyapp"/> 
+              <p className = "project__box--context">
+                View all the interesting facts about SpaceX - Built with Apollo GraphQL & SpaceX-API
+              </p> 
+              <a className = "project__box--link1" href="https://github.com/jmgtheworld/spaceX_launchStats" target = "_blank" rel="noreferrer"> 
+              Visit Github Repo {`>`} 
+              </a> 
+              <a className = "project__box--link2" href="https://www.youtube.com/watch?v=C_MdEKALY0k&feature=youtu.be&ab_channel=MGJ" target = "_blank" rel="noreferrer"> 
+              Watch Live Demo {`>`} 
+              </a> 
+            </div>
+
 
           <div className = "project__box"> 
             <h3 className = "project__box--name"> The Dundies </h3> 
@@ -121,7 +137,7 @@ export default function Body() {
             </a> 
           </div> */}
 
-          <div className = "project__box"> 
+          {/* <div className = "project__box"> 
             <h3 className = "project__box--name"> Tweeter </h3> 
             <img className = "project__item" src = "images/tweeter.png" alt = "tweeter"/> 
             <p className = "project__box--context">
@@ -131,7 +147,7 @@ export default function Body() {
             <a className = "project__box--link" href="https://github.com/jmgtheworld/tweeter" target = "_blank" rel="noreferrer"> 
             Visit Github Repo {`>`} 
             </a> 
-          </div>
+          </div> */}
 
 
         </div>
