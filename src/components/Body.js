@@ -25,6 +25,7 @@ export default function Body() {
         <h5 className = "language"> Javascript </h5> 
           <img className = "body__language--item" src = "../images/ajax.jpg" alt = "ajax"/>
           <img className = "body__language--item" src = "../images/logo192.png" alt = "react"/>
+          <img className = "body__language--item" src = "../images/redux.svg" alt = "redux"/>
           <img className = "body__language--item" src = "../images/nodejs.png" alt = "nodejs" />
           <img className = "body__language--item"  src="../images/jquery.png" alt = "jquery"/>
           <img className = "body__language--item"  src="../images/maps.png" alt = "maps"/>
@@ -33,6 +34,7 @@ export default function Body() {
           <img className = "body__language--item"  src="../images/apollo.png" alt = "apollographql"/>
           <img className = "body__language--item"  src="../images/rails.png" alt = "ruby"/>
           <img className = "body__language--item"  src="../images/php.png" alt = "php"/>
+          <img className = "body__language--item"  src="../images/flask.png" alt = "flask"/>
         <h5 className = "language"> Testing </h5> 
           <img className = "body__language--item"  src="../images/eslint.svg" alt = "eslint"/>
           <img className = "body__language--item"  src="../images/mocha.png" alt = "mocha"/>
