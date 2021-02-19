@@ -12,7 +12,8 @@
     &__profileImage {
       width: 290px;
       height: 370px;
-      margin-top: 20px;
+      margin-top: 35px;
+      border-radius: 15px;
     }
 
     .name {
@@ -28,9 +29,9 @@
     }
 
     .aboutMe {
-      line-height: 1.6;
-      font-size: 20px;
-      width: 60%;
+      line-height: 1.5;
+      font-size: 22px;
+      width: 45%;
     }
 
     .bodyTitle {
@@ -40,7 +41,7 @@
 
     .language {
       font-size: 25px;
-      margin-top: 40px;
+      margin-top: 35px;
       color: gray
     }
 
